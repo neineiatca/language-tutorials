@@ -1,2 +1,2 @@
-input: max
-output: array of prime in [1 - max]
+input: max </b>
+output: array of prime in [1 - max] </b>
