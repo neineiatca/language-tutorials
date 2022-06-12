@@ -13,3 +13,15 @@ type casting
 **how to run**
 rustc abc
 ./abc
+
+**languages**
+python
+
+ruby
+go
+rust
+
+c#
+java
+
+php
