@@ -1,18 +1,25 @@
-fn aaa() {
-    for dividend in 1..10 {
-        for dividor in 1..dividend {
+fn aaa(max: u32) {
+    let mut vec = Vec::new();
+    for dividend in 1..max {
+        let mut isPrime = true;
+        for dividor in 2..dividend {
             let dividendAsFloat = dividend as f64;
             let dividorAsFloat = dividor as f64;
-            let aaa = dividend / dividor;
-            let bbb = aaa as f64;
-            let aaaAsFloat = dividendAsFloat / dividorAsFloat;
-            if bbb == aaaAsFloat {
-                println!("no remaider {}, {}", dividend, dividor);
+            let integerResult = dividend / dividor;
+            let converted = integerResult as f64;
+            let floatResult = dividendAsFloat / dividorAsFloat;
+            if converted == floatResult {
+                isPrime = false;
+                break;
             }
         }
+        if isPrime {
+            vec.push(dividend);
+        }
     }
+    println!("{:?}", vec);
 }
 
 fn main() {
-    aaa();
+    aaa(100);
 }
