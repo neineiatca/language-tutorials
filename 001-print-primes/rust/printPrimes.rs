@@ -1,4 +1,4 @@
-fn aaa(max: u32) {
+fn findPrimes(max: i32) -> Vec<i32> {
     let mut vec = Vec::new();
     for dividend in 1..max {
         let mut isPrime = true;
@@ -17,9 +17,11 @@ fn aaa(max: u32) {
             vec.push(dividend);
         }
     }
-    println!("{:?}", vec);
+    vec
 }
 
 fn main() {
-    aaa(100);
+    let mut aaa = Vec::new();
+    aaa = findPrimes(100);
+    println!("{:?}", aaa);
 }
