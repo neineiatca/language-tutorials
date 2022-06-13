@@ -25,3 +25,9 @@ c#
 java
 
 php
+
+**which ones have been finished**
+|+++++++++++++++++++|+++++++++++|
+|     rust          |   checked |
+|      go           |   checked |
+|+++++++++++++++++++|+++++++++++|
