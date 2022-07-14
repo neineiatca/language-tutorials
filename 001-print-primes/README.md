@@ -28,6 +28,11 @@ php
 
 **which ones have been finished**
 |+++++++++++++++++++|+++++++++++|
-|     rust          |   checked |
-|      go           |   checked |
+|       1-python    |           |
+|      2-go         |   checked |
+|       2-ruby      |           |
+|     2-rust        |   checked |
+|        3-cs       |           |
+|        3-java     |           |
+|       4-php       |           |
 |+++++++++++++++++++|+++++++++++|
