@@ -28,7 +28,7 @@ php
 
 **which ones have been finished**
 |+++++++++++++++++++|+++++++++++|
-|      1-python     |           |
+|      1-python     |   checked |
 |      2-go         |   checked |
 |      2-ruby       |           |
 |      2-rust       |   checked |
