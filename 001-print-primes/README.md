@@ -30,7 +30,7 @@ php
 |+++++++++++++++++++|+++++++++++|
 |      1-python     |   checked |
 |      2-go         |   checked |
-|      2-ruby       |           |
+|      2-ruby       |   checked |
 |      2-rust       |   checked |
 |      3-cs         |           |
 |      3-java       |           |
